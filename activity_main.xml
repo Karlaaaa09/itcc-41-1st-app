@@ -8,13 +8,13 @@
     android:layout_height="match_parent">
 
     <ImageView
+        android:id="@+id/imageView"
         android:layout_width="227dp"
         android:layout_height="205dp"
-        android:id="@+id/imageView"
         android:layout_marginBottom="20dp"
-        android:importantForAccessibility="no"
-        tools:srcCompat="@drawable/dice_6"
-        />
+        android:src="@drawable/dice_6"
+        android:importantForAccessibility="no" />
+
     <Button
         android:id="@+id/buttonOne"
         android:layout_width="wrap_content"
@@ -22,8 +22,5 @@
         android:layout_marginTop="16dp"
         android:padding="25dp"
         android:text="@string/roll"
-        android:textSize="36sp"
-        tools:text="Roll" />
-
-
+        android:textSize="36sp" />
 </LinearLayout>
